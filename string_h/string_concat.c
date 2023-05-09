@@ -13,12 +13,12 @@ int main()
 
     // 让 'hello ' 的后面加上 'world'
     strcat(to, from);
-    puts(to);
+    puts(to); // hello world
 
     //
     to[0] = '\0';
-    puts(to);
+    puts(to); // ''
     strncat(to, from, 4);
-    puts(to);
+    puts(to); // worl 前 4 个字符
     return 0;
 }
